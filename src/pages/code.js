@@ -2,13 +2,14 @@ import React from "react"
 import styled from 'styled-components'
 import Layout from "../components/layout"
 
-const IndexPage = () => (
-  <Layout>
+const code = () => (
+    <Layout>
         <Wrap>
-            <h1>Home</h1>
+            <h1>Code</h1>
         </Wrap>
-  </Layout>
+    </Layout>
 )
+
 
 const Wrap = styled.div`
 width: 100vw;
@@ -22,4 +23,4 @@ h1{
     color: white;
 }
 `
-export default IndexPage
+export default code
